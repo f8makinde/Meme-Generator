@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ padding: 10px 30px;
+ background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+ color: white;
+}
+.nav-img{
+  max-width: 100%;
+  width: 32px;
+  height: 27px;
+  object-fit: cover;
+  font-weight: 700;
+}
+
+.nav-light{
+  margin-left: auto;
+  font-weight: 500;
+}
