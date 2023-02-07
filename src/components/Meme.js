@@ -49,10 +49,12 @@ export default function Meme(){
              type='text'
              name='bottomText'
              value={meme.bottomText}
+             onChange={handleChange}
              className="form--input"
              placeholder='bottom-text'
              required
              /> 
+
             <button className="form--button" onClick={getMemeImage}>Get a new meme image 🖼</button>
         </div>
         <div className='meme'>
